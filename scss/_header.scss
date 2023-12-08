@@ -1,0 +1,33 @@
+.header-pc {
+    padding: 0 120px;
+}
+
+.logo {
+    padding: 16px 0 16px 30px;
+
+    &-img {
+        width: 196px;
+        height: auto;
+    }
+}
+
+.navbar {
+    &-item {
+        &.active {
+            color: #ff8401;
+        }
+    }
+    &-link {
+        padding: 0 9px;
+    }
+}
+
+.register-btn {
+    border: 1px solid #fff;
+    &__link {
+        padding: 5px 15px;
+        &:hover {
+            color: #ff8401;
+        }
+    }
+}
